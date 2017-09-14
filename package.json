@@ -1,0 +1,30 @@
+{
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jquery": "^3.2.12",
+    "@types/openlayers": "^4.1.4",
+    "@types/rx": "^4.1.1",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.28.1",
+    "file-loader": "^0.11.1",
+    "html-webpack-plugin": "^2.28.0",
+    "jquery": "^3.2.1",
+    "ol": "^4.2.0",
+    "rimraf": "^2.6.1",
+    "rxjs": "^5.4.3",
+    "style-loader": "^0.17.0",
+    "ts-loader": "^2.3.2",
+    "tslint": "^5.5.0",
+    "tslint-loader": "^3.5.3",
+    "typescript": "^2.4.2",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.4"
+  },
+  "name": "typescript-openlayers",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server",
+    "rebuild": "rimraf dist/* && npm run build"
+  },
+  "version": "0.0.1"
+}

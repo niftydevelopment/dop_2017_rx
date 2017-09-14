@@ -1,0 +1,15 @@
+.refreshButton {
+    margin-top:0em;
+}
+
+.topLoader{
+    visibility: hidden;    
+}
+
+#content{
+    margin-top:2em;
+}
+
+img {
+    width:60px;
+}
